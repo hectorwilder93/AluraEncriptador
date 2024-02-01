@@ -1,0 +1,148 @@
+body{
+ margin: 0px;
+ padding: 0px;
+ background: #F3F5FC;
+}
+.container{
+    margin:auto;
+    width: 960px;
+    height: 850px;
+    padding: 5px;
+}
+
+.logo{
+    width: 100%;
+    float:left;
+}
+
+.left{
+    float:left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;   
+}
+.right{
+    float:right;
+    width: 30%; 
+    height: auto;
+    border-radius: 24px;
+    background: #FFFFFF;
+}
+
+.left-button{
+    float:left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+}
+
+
+
+.logoImg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float:inherit;
+}
+
+.title{
+    float: inherit;
+    margin-left: 15%;
+}
+
+.text-input{
+    float:left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3872;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #F3F5FC;
+} 
+
+#imgDerecha{
+    margin-top: 20%;
+    margin-left: 2%;
+    width:90%;
+    height:auto;
+}
+
+#texto{
+    margin-left: 7%;
+    margin-right: 5%;
+    color: #343A40;
+}
+
+#texto2{
+   float: left;
+   margin-left: 10%;
+   color: #495057;
+   width: 80%;
+   height: 60%;
+   border: none;
+   outline: none;
+   font-size: 15px; 
+}
+
+#btn-encriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+    color: white;
+}
+
+#btn-desencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #D8DFE8;
+    color: #0A3871;
+}
+
+#copiar{
+  margin-left: 30%;
+  margin-top: 25%;
+  padding: 24px;
+  width: 50%;
+  height: 60%;
+  background: #D8DFE8;
+  border-radius: 24px;
+  color:#0A3871;
+}
+
+.footer{
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/**Diseño responsive*/
+@media screen and (max-width: 768px) {
+    .container, .footer {
+        width: 100%;
+        float:none;
+    }
+
+    .left,
+    .right,
+    .left-button {
+        width: 100%;
+        float: none;
+    }
+
+    #btn-encriptar,
+    #btn-desencriptar,
+    #copiar {
+        width: 100%;
+    }
+}
+
+
